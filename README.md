@@ -5,3 +5,17 @@ Type declaration for CSS/SASS/SCSS module in React Native, to use with [react-na
 ```sh
 yarn add -D thanhtunguet/react-native-css-module
 ```
+
+## Usage
+
+Add to `tsconfig.json`:
+
+```json
+{
+  "compilerOptions": {
+    "types": [
+      "react-native-css-module"
+    ]
+  }
+}
+```
